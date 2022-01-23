@@ -28,7 +28,7 @@ public class ZeroPage{
     public WebElement loginButton;
 
     @FindBy(id = "primary-button")
-    public WebElement errorbutton;
+    public WebElement errorButton;
 
     @FindBy(xpath = "//*[@id='login_form']/div")
     public WebElement errorMessage;
@@ -38,6 +38,9 @@ public class ZeroPage{
 
     @FindBy(linkText = "Logout")
     public WebElement logoutLink;
+
+    @FindBy(linkText = "Account Activity")
+    public WebElement accountActivity;
 
 
 
