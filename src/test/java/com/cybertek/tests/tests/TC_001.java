@@ -12,7 +12,7 @@ public class TC_001 extends TestBase {
     AmazonPage amazonPage = new AmazonPage();
     @Test
     public void test1() throws InterruptedException {
-        driver.get(Configurations_Reader.getKey("url"));
+        driver.get(Configurations_Reader.getKey("amazonUrl"));
         amazonPage.cookiesButton.click();
         amazonPage.searchBox.sendKeys("hats for men");
         amazonPage.searchButton.click();
