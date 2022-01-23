@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.cybertek.utilities.Configurations_Reader.*;
-import static com.cybertek.utilities.Driver.*;
 
 
 
